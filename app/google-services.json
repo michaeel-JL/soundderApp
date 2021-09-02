@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "623330225930",
+    "firebase_url": "https://soundderapp-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "soundderapp",
+    "storage_bucket": "soundderapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623330225930:android:c802aae4ff1135ccd694f3",
+        "android_client_info": {
+          "package_name": "com.example.soundder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623330225930-6qj65i36frrptigper661aodkt122tp2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.soundder",
+            "certificate_hash": "865aa94b3859e5e5f0851ec73ca3520ee887db9f"
+          }
+        },
+        {
+          "client_id": "623330225930-ueucdt0p7uqrdjng3iq54o2oesh91va0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx5blev2VdXznWx2Jpdk2LUiiSJal91_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623330225930-ueucdt0p7uqrdjng3iq54o2oesh91va0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

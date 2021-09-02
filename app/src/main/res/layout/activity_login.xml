@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Login_Activity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/gallery1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-medium"
+                android:text="Iniciar sesión"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+            <LinearLayout
+                android:layout_below="@id/tv_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linelay1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Correo"
+                        android:inputType="textEmailAddress"
+                        android:textSize="15sp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000000"/>
+                    <EditText
+                        android:id="@+id/mail"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        android:fontFamily="sans-serif-light"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:layout_marginTop="5dp"
+                        android:inputType="text"
+                        android:maxLines="1"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contraseña"
+                        android:textSize="15sp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000000"/>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:id="@+id/password"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:textSize="15sp"
+                            android:textColor="#000000"
+                            android:fontFamily="sans-serif-light"
+                            android:inputType="textPassword"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:layout_marginTop="5dp"/>
+
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+                <Switch
+                    android:id="@+id/remember_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recordar usuario"
+                    android:textAllCaps="false"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="15sp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_login"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="Iniciar sesión"
+                android:textSize="16sp"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:backgroundTint="#42BFB4"
+                android:layout_below="@id/linelay1"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gallery2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="Registrarse"
+            android:id="@+id/btn_signup"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"/>
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:id="@+id/btn_resetPassword"
+            android:text="¿Olvidó su contraseña?"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

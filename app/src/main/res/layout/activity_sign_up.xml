@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SignUp_Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Registro"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Email"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+    <EditText
+        android:id="@+id/etxt_email"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:singleLine="true"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Contraseña"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+    <EditText
+        android:id="@+id/etxt_password"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:singleLine="true"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-medium"
+        android:text="Registrar"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
